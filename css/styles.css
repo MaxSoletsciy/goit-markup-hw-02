@@ -6,6 +6,7 @@
 	--text-title-hero: #ffffff;
 	--bg-section-team: #f5f4fa;
 	--logo-black: #000000;
+	--bg-button-hover: #188CE8;
 }
 
 body {
@@ -97,6 +98,11 @@ a {
 	line-height: 1.88em;
 	text-align: center;
 	letter-spacing: 0.06em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+	background-color: var(--bg-button-hover);
 }
 
 .hero-title {
