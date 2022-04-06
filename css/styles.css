@@ -51,12 +51,13 @@ a {
 	font-family: Raleway, sans-serif;
 	font-weight: 700px;
 	font-size: 26px;
-	line-height: 1.17em;
+	line-height: 1.17;
 }
 
 /* навігація сайта в хедері */
 .site-nav .link {
 	color: var(--title-text-color);
+	font-weight: 500;
 }
 
 
@@ -79,6 +80,7 @@ a {
 /* контакти хедер */
 .contacts-head a {
 	color: var(--primery-text-color);
+	font-weight: 500;
 }
 
 /* герой */
@@ -122,6 +124,7 @@ a {
 
 /* main заголовки і абзаци */
 .benefits h3 {
+	font-size: 14px;
 	font-weight: 700;
 	line-height: 1.14;
 	text-transform: uppercase;
@@ -129,7 +132,7 @@ a {
 
 .desc-item,
 .footer .list {
-	line-height: 1.71em;
+	line-height: 1.71;
 }
 
 .benefits h2,
@@ -154,7 +157,7 @@ a {
 
 .team p {
 	font-size: 16px;
-	line-height: 1.18px;
+	line-height: 1.18;
 	text-align: center;
 }
 
@@ -197,7 +200,7 @@ a {
 	color: var(--primery-text-color);
 
 	font-size: 16px;
-	line-height: 1.88px;
+	line-height: 1.88;
 }
 
 .filters h2 {
